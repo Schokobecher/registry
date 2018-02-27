@@ -325,8 +325,8 @@
     "ditto": {
       "installer": {
         "kind": "innosetup",
-        "x86": "https://downloads.sourceforge.net/project/ditto-cp/Ditto/3.21.223.0/DittoSetup_3_21_223_0.exe",
-        "x86_64": "https://downloads.sourceforge.net/project/ditto-cp/Ditto/3.21.223.0/DittoSetup_64bit_3_21_223_0.exe"
+        "x86": "https://downloads.sourceforge.net/project/ditto-cp/Ditto/{{.version}}/DittoSetup_{{.version_}}.exe",
+        "x86_64": "https://downloads.sourceforge.net/project/ditto-cp/Ditto/{{.version}}/DittoSetup_64bit_{{.version_}}.exe"
       },
       "version": "3.21.223.0"
     },
